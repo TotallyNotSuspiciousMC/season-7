@@ -1,13 +1,13 @@
 {
     "config": {
-        "fossil_processors": "tns7:feature_cannot_replace",
-        "overlay_processors": "tns7:feature_cannot_replace",
+        "fossil_processors": "tns7:monster_room",
+        "overlay_processors": "tns7:monster_room_mossy",
         "max_empty_corners_allowed": 4,
         "fossil_structures": [
-            "tns7:husk_dungeon_desert"
+            "tns7:husk_dungeon_badlands"
         ],
         "overlay_structures": [
-            "tns7:husk_dungeon_desert"
+            "tns7:husk_dungeon_mossy"
         ]
     },
     "type": "minecraft:fossil"
