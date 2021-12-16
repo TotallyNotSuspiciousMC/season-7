@@ -1,0 +1,15 @@
+{
+    "fallback": "minecraft:empty",
+    "name": "tns7:husk_dungeon",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "tns7:husk_dungeon",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}
