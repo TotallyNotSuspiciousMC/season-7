@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "item": "minecraft:water_bucket"
+        }
+
+    ],
+    "result": {
+        "item": "minecraft:clay",
+        "count": 4
+    },
+    "group": "clay_blocks"
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "NFN",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:wool"
+        },
+        "N": {
+            "item": "minecraft:nautilus_shell"
+        },
+        "F": {
+            "item": "minecraft:pufferfish"
+        }
+    },
+    "result": {
+        "item": "minecraft:wet_sponge",
+        "count": 2
+    }
+}
