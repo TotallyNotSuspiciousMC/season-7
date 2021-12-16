@@ -4,10 +4,10 @@
         "overlay_processors": "tns7:feature_cannot_replace",
         "max_empty_corners_allowed": 4,
         "fossil_structures": [
-            "tns7:husk_dungeon"
+            "tns7:husk_dungeon_desert"
         ],
         "overlay_structures": [
-            "tns7:husk_dungeon"
+            "tns7:husk_dungeon_desert"
         ]
     },
     "type": "minecraft:fossil"

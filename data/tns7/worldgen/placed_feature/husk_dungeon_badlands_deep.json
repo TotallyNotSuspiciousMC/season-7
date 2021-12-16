@@ -1,9 +1,9 @@
 {
-    "feature": "tns7:husk_dungeon",
+    "feature": "tns7:husk_dungeon_badlands",
     "placement": [
         {
-            "count": 10,
-            "type": "minecraft:count"
+            "chance": 50,
+            "type": "minecraft:rarity_filter"
         },
         {
             "type": "minecraft:in_square"
@@ -11,7 +11,7 @@
         {
             "height": {
                 "min_inclusive": {
-                    "absolute": 0
+                    "above_bottom": 0
                 },
                 "max_inclusive": {
                     "below_top": 0

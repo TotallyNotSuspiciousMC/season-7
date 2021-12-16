@@ -1,9 +1,9 @@
 {
-    "feature": "tns7:husk_dungeon",
+    "feature": "tns7:husk_dungeon_desert",
     "placement": [
         {
-            "count": 4,
-            "type": "minecraft:count"
+            "chance": 50,
+            "type": "minecraft:rarity_filter"
         },
         {
             "type": "minecraft:in_square"
@@ -11,10 +11,10 @@
         {
             "height": {
                 "min_inclusive": {
-                    "above_bottom": 6
+                    "absolute": 0
                 },
                 "max_inclusive": {
-                    "absolute": -1
+                    "below_top": 0
                 },
                 "type": "minecraft:uniform"
             },
