@@ -1,0 +1,26 @@
+{
+    "feature": "tns7:enderius_lake",
+    "placement": [
+        {
+            "type": "count",
+            "count": 10
+        },
+        {
+            "type": "random_offset",
+            "xz_spread": {
+                "type": "minecraft:uniform",
+                "value": {
+                    "min_inclusive": -4,
+                    "max_inclusive": 4
+                }
+            },
+            "y_spread": {
+                "type": "minecraft:uniform",
+                "value": {
+                    "min_inclusive": -4,
+                    "max_inclusive": 0
+                }
+            }
+        }
+    ]
+}

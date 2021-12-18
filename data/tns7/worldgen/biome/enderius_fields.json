@@ -13,7 +13,9 @@
     },
     "carvers": {},
     "features": [
-        [],
+        [
+            "tns7:enderius_lake"
+        ],
         [],
         [],
         [],
@@ -22,9 +24,7 @@
         ],
         [],
         [],
-        [
-            "tns7:spring_enderius"
-        ],
+        [],
         [],
         [
             "minecraft:chorus_plant"
