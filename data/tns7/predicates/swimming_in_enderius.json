@@ -1,0 +1,34 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "biome": "tns7:enderius_fields",
+            "fluid": {
+                "fluid": "minecraft:water"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "player": {
+                        "gamemode": "survival"
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "player": {
+                        "gamemode": "adventure"
+                    }
+                }
+            }
+        ]
+    }
+]
