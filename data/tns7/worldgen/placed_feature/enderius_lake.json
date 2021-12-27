@@ -1,20 +1,37 @@
 {
-    "feature": "tns7:enderius_lake",
-    "placement": [
-        {
-            "type": "count",
-            "count": 10
-        },
-        {
-            "type": "random_offset",
-            "xz_spread": {
-                "type": "minecraft:uniform",
-                "value": {
-                    "min_inclusive": -4,
-                    "max_inclusive": 4
-                }
-            },
-            "y_spread": 0
-        }
-    ]
+	"feature": "tns7:enderius_lake",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 20
+		},
+		{
+			"type": "minecraft:count",
+			"count": 30
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": {
+				"type": "uniform",
+				"value": {
+					"min_inclusive": -16,
+					"max_inclusive": 16
+				}
+			},
+			"y_spread": {
+				"type": "uniform",
+				"value": {
+					"min_inclusive": -2,
+					"max_inclusive": 2
+				}
+			}
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
 }
