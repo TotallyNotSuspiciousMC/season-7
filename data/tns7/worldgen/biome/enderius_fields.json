@@ -22,11 +22,14 @@
         [
             "minecraft:end_gateway_return"
         ],
-        [],
+        [
+            "tns7:disk_obsidian"
+        ],
         [],
         [],
         [],
         [
+            "tns7:under_enderius_sculk",
             "minecraft:chorus_plant"
         ]
     ],
@@ -34,8 +37,8 @@
         "monster": [
             {
                 "type": "minecraft:endermite",
-                "weight": 10,
-                "minCount": 4,
+                "weight": 1,
+                "minCount": 1,
                 "maxCount": 4
             }
         ],

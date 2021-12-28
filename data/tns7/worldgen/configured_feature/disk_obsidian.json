@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:disk",
+    "config": {
+        "radius": {
+            "type": "minecraft:uniform",
+            "value": {
+                "min_inclusive": 2,
+                "max_inclusive": 3
+            }
+        },
+        "half_height": 1,
+        "state": {
+            "Name": "minecraft:obsidian"
+        },
+        "targets": [
+            {
+                "Name": "minecraft:smooth_basalt"
+            },
+            {
+                "Name": "minecraft:basalt",
+                "Properties": {
+                    "axis": "y"
+                }
+            }
+        ]
+    }
+}
