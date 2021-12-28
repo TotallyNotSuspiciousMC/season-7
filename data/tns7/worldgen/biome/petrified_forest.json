@@ -8,38 +8,32 @@
         },
         "sky_color": 0,
         "fog_color": 10518688,
-        "water_color": 11416811,
-        "water_fog_color": 5508218
+        "water_color": 4159204,
+        "water_fog_color": 329011
     },
     "carvers": {},
     "features": [
         [],
-        [
-            "tns7:enderius_lake"
-        ],
+        [],
         [],
         [],
         [
             "minecraft:end_gateway_return"
         ],
-        [
-            "tns7:disk_obsidian"
-        ],
+        [],
         [],
         [],
         [
-            "tns7:under_enderius_sculk"
+            "tns7:petrified_tree"
         ],
-        [
-            "minecraft:chorus_plant"
-        ]
+        []
     ],
     "spawners": {
         "monster": [
             {
-                "type": "minecraft:endermite",
-                "weight": 1,
-                "minCount": 1,
+                "type": "minecraft:enderman",
+                "weight": 10,
+                "minCount": 4,
                 "maxCount": 4
             }
         ],

@@ -10,11 +10,23 @@
                 {
                     "biome": "tns7:enderius_fields",
                     "parameters": {
-                        "temperature": 0,
-                        "humidity": 0,
+                        "temperature": -0.2,
+                        "humidity": 1,
                         "continentalness": 0,
                         "erosion": 0,
-                        "weirdness": 0,
+                        "weirdness": 0.2,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "tns7:petrified_forest",
+                    "parameters": {
+                        "temperature": 0.3,
+                        "humidity": 0.3,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": -0.1,
                         "depth": 0,
                         "offset": 0
                     }

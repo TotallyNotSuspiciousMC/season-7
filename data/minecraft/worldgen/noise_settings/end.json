@@ -55,6 +55,35 @@
                 "type": "minecraft:condition"
             },
             {
+                "if_true": {
+                    "biome_is": [
+                        "tns7:petrified_forest"
+                    ],
+                    "type": "minecraft:biome"
+                },
+                "then_run": {
+                    "sequence": [
+                        {
+                            "if_true": {
+                                "noise": "minecraft:surface",
+                                "min_threshold": -0.1,
+                                "max_threshold": 0.15,
+                                "type": "minecraft:noise_threshold"
+                            },
+                            "then_run": {
+                                "result_state": {
+                                    "Name": "minecraft:light_gray_terracotta"
+                                },
+                                "type": "minecraft:block"
+                            },
+                            "type": "minecraft:condition"
+                        }
+                    ],
+                    "type": "minecraft:sequence"
+                },
+                "type": "minecraft:condition"
+            },
+            {
                 "result_state": {
                     "Name": "minecraft:end_stone"
                 },
