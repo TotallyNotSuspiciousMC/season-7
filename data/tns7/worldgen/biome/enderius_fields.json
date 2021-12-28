@@ -13,10 +13,10 @@
     },
     "carvers": {},
     "features": [
+        [],
         [
             "tns7:enderius_lake"
         ],
-        [],
         [],
         [],
         [
@@ -27,11 +27,11 @@
         ],
         [],
         [],
-        [],
         [
             "tns7:under_enderius_sculk",
             "minecraft:chorus_plant"
-        ]
+        ],
+        []
     ],
     "spawners": {
         "monster": [
