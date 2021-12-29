@@ -1,0 +1,60 @@
+{
+    "parent": "minecraft:end/enter_end_gateway",
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {
+            "text": "The End of the Line"
+        },
+        "description": {
+            "text": "Visit all biomes in The End"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "visit_highlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:end_highlands"
+                }
+            }
+        },
+        "visit_enderius_fields": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "tns7:enderius_fields"
+                }
+            }
+        },
+        "visit_petrified_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "tns7:petrified_forest"
+                }
+            }
+        },
+        "visit_barrens": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:end_barrens"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "visit_highlands",
+            "visit_enderius_fields",
+            "visit_petrified_forest",
+            "visit_barrens"
+        ]
+    ]
+}
