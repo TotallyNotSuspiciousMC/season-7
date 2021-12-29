@@ -22,7 +22,11 @@
         ],
         [],
         [],
-        [],
+        [
+            "minecraft:patch_soul_fire",
+            "tns7:patch_dead_coral",
+            "tns7:ore_raw_iron"
+        ],
         [
             "tns7:petrified_tree"
         ],

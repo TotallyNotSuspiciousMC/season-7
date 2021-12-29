@@ -5,7 +5,10 @@
         "force_dirt": false,
         "dirt_provider": {
             "state": {
-                "Name": "minecraft:end_stone"
+                "Name": "minecraft:basalt",
+                "Properties": {
+                    "axis": "y"
+                }
             },
             "type": "minecraft:simple_state_provider"
         },
