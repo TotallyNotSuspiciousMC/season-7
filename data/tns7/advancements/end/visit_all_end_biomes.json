@@ -51,9 +51,15 @@
     },
     "requirements": [
         [
-            "visit_highlands",
-            "visit_enderius_fields",
-            "visit_petrified_forest",
+            "visit_highlands"
+        ],
+        [
+            "visit_enderius_fields"
+        ],
+        [
+            "visit_petrified_forest"
+        ],
+        [
             "visit_barrens"
         ]
     ]
