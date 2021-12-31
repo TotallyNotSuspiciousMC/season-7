@@ -44,7 +44,7 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "location": {
-                    "biome": "minecraft:end_barrens"
+                    "biome": "tns7:end_barrens"
                 }
             }
         }

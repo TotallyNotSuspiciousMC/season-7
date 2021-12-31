@@ -12,7 +12,22 @@
         "water_fog_color": 329011
     },
     "carvers": {},
-    "features": [],
+    "features": [
+        [],
+        [],
+        [
+            "tns7:obsidian_rock"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "tns7:patch_dead_coral"
+        ],
+        [],
+        []
+    ],
     "spawners": {
         "monster": [
             {
