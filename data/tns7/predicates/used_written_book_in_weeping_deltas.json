@@ -1,0 +1,20 @@
+[
+    {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "tns7.used_written_book": {
+                "min": 1
+            }
+        }
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "location": {
+                "biome": "tns7:weeping_deltas"
+            }
+        }
+    }
+]

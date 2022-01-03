@@ -12,8 +12,8 @@
                     "parameters": {
                         "temperature": -0.2,
                         "humidity": 0.5,
-                        "continentalness": 0,
-                        "erosion": 0,
+                        "continentalness": 0.2,
+                        "erosion": 0.4,
                         "weirdness": 0.2,
                         "depth": 0,
                         "offset": 0
@@ -23,9 +23,9 @@
                     "biome": "tns7:petrified_forest",
                     "parameters": {
                         "temperature": 0.3,
-                        "humidity": -0.5,
-                        "continentalness": 0,
-                        "erosion": 0,
+                        "humidity": -0.4,
+                        "continentalness": 0.3,
+                        "erosion": -0.4,
                         "weirdness": -0.1,
                         "depth": 0,
                         "offset": 0
@@ -34,10 +34,10 @@
                 {
                     "biome": "minecraft:end_highlands",
                     "parameters": {
-                        "temperature": 0,
-                        "humidity": 0,
-                        "continentalness": 0.5,
-                        "erosion": 0,
+                        "temperature": 0.1,
+                        "humidity": 0.3,
+                        "continentalness": -0.3,
+                        "erosion": 0.3,
                         "weirdness": 0,
                         "depth": 0,
                         "offset": 0
@@ -47,9 +47,9 @@
                     "biome": "minecraft:end_barrens",
                     "parameters": {
                         "temperature": 0.3,
-                        "humidity": -0.07,
-                        "continentalness": 0,
-                        "erosion": 0,
+                        "humidity": -0.2,
+                        "continentalness": -0.2,
+                        "erosion": -0.8,
                         "weirdness": 0,
                         "depth": 0,
                         "offset": 0
@@ -59,10 +59,22 @@
                     "biome": "tns7:weeping_deltas",
                     "parameters": {
                         "temperature": 0.3,
-                        "humidity": -0.07,
-                        "continentalness": 0,
+                        "humidity": -0.1,
+                        "continentalness": 0.1,
                         "erosion": 0.1,
-                        "weirdness": 0,
+                        "weirdness": 0.2,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "tns7:ender_grove",
+                    "parameters": {
+                        "temperature": -0.1,
+                        "humidity": 0.9,
+                        "continentalness": -0.5,
+                        "erosion": 0.5,
+                        "weirdness": 0.5,
                         "depth": 0,
                         "offset": 0
                     }

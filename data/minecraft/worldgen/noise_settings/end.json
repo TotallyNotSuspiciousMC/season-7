@@ -70,7 +70,7 @@
                             "if_true": {
                                 "offset": 0,
                                 "surface_type": "floor",
-                                "add_surface_depth": false,
+                                "add_surface_depth": true,
                                 "add_surface_secondary_depth": false,
                                 "type": "minecraft:stone_depth"
                             },
@@ -107,7 +107,7 @@
                                 "offset": 0,
                                 "surface_type": "floor",
                                 "add_surface_depth": true,
-                                "add_surface_secondary_depth": false,
+                                "add_surface_secondary_depth": true,
                                 "type": "minecraft:stone_depth"
                             },
                             "then_run": {
@@ -131,10 +131,48 @@
                     "type": "minecraft:biome"
                 },
                 "then_run": {
-                    "result_state": {
-                        "Name": "minecraft:blackstone"
-                    },
-                    "type": "minecraft:block"
+                    "sequence": [
+                        {
+                            "if_true": {
+                                "noise": "tns7:surface_2",
+                                "min_threshold": -0.2,
+                                "max_threshold": 0.3,
+                                "type": "minecraft:noise_threshold"
+                            },
+                            "then_run": {
+                                "result_state": {
+                                    "Name": "minecraft:smooth_basalt"
+                                },
+                                "type": "minecraft:block"
+                            },
+                            "type": "minecraft:condition"
+                        },
+                        {
+                            "if_true": {
+                                "noise": "minecraft:surface",
+                                "min_threshold": -0.1774,
+                                "max_threshold": 0.1774,
+                                "type": "minecraft:noise_threshold"
+                            },
+                            "then_run": {
+                                "result_state": {
+                                    "Name": "minecraft:basalt",
+                                    "Properties": {
+                                        "axis": "y"
+                                    }
+                                },
+                                "type": "minecraft:block"
+                            },
+                            "type": "minecraft:condition"
+                        },
+                        {
+                            "result_state": {
+                                "Name": "minecraft:blackstone"
+                            },
+                            "type": "minecraft:block"
+                        }
+                    ],
+                    "type": "minecraft:sequence"
                 },
                 "type": "minecraft:condition"
             },

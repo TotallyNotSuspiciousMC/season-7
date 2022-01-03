@@ -48,7 +48,9 @@
                         "blocks": [
                             "minecraft:end_stone",
                             "minecraft:crying_obsidian",
-                            "minecraft:blackstone"
+                            "minecraft:blackstone",
+                            "minecraft:basalt",
+                            "minecraft:smooth_basalt"
                         ]
                     }
                 ]

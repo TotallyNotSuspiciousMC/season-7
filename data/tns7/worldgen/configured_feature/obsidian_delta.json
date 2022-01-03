@@ -1,13 +1,10 @@
 {
     "config": {
         "contents": {
-            "Properties": {
-                "level": "0"
-            },
-            "Name": "minecraft:water"
+            "Name": "minecraft:cobbled_deepslate"
         },
         "rim": {
-            "Name": "minecraft:obsidian"
+            "Name": "minecraft:amethyst_block"
         },
         "size": {
             "type": "minecraft:uniform",
