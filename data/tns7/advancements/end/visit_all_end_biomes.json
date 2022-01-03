@@ -8,7 +8,7 @@
             "text": "The End of the Line"
         },
         "description": {
-            "text": "Visit all biomes in The End"
+            "text": "Visit all of the biomes in The End"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -77,6 +77,12 @@
         ],
         [
             "visit_barrens"
+        ],
+        [
+            "visit_weeping_deltas"
+        ],
+        [
+            "visit_ender_grove"
         ]
     ]
 }

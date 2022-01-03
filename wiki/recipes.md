@@ -1,3 +1,7 @@
+## Temporary Changes to Ender Eye recipes
+
+Before the end event begins, the Eye of Ender will be uncraftable and all recipes that require the item will instead use ender pearls. This is **temporary**, and an announcement will be posted when this reverts back to vanilla. 
+
 ## Custom Recipes
 The following recipes were created exclusively for TNS.
 
@@ -13,21 +17,13 @@ _Shapeless recipe:_
 
 **Note:** The ice may be replaced with a water bucket. The sand may be replaced with red sand. The dirt may be replaced with any of: rooted dirt, grass block, or podzol.
 
-### Sand and Gravel
+### Gravel
 
 _Shapeless recipe:_
 
-![To craft 4 sand, place 8 stone-type blocks with 1 gunpowder shapelessly](https://i.gyazo.com/e2222a959da5d9f63557b0b5c8754447.png)
+![To craft 4 gravel, place 8 stone-type blocks with 1 gunpowder shapelessly](https://i.gyazo.com/e2222a959da5d9f63557b0b5c8754447.png)
 
-**Note:** Cobblestone may also be replaced with any of stone, granite, andesite, diorite, cobbled deepslate, tuff, or blackstone.
-
-
-_Shapeless recipe:_
-
-![To craft 8 sand, place 8 gravel with 1 gunpowder shapelessly](https://i.gyazo.com/affa42cf41fda08557be3cb2d14a50c4.png)
-
-See also: [loot table]() and [world generation]() relating to the Husk.
-
+**Note:** Cobblestone may also be replaced with any of: stone, granite, andesite, diorite, cobbled deepslate, tuff, or blackstone.
 
 ### Quartz
 
@@ -41,7 +37,16 @@ _Shapeless recipe:_
 
 ![To craft 1 red sand, place 1 sand with 1 iron nugget shapelessly](https://i.gyazo.com/cbde3d5b15d0dcf7f57a7f8b87afa335.png)
 
-See also: [loot table]() and [world generation]() relating to the Husk.
+See also: [loot table](https://github.com/TheDeathlyCow/tns7/wiki/Loot-Tables) and [world generation]() relating to the Husk.
+
+### Sand
+
+_Shapeless recipe:_
+
+![To craft 8 sand, place 8 gravel with 1 gunpowder shapelessly](https://i.gyazo.com/affa42cf41fda08557be3cb2d14a50c4.png)
+
+See also: [loot table](https://github.com/TheDeathlyCow/tns7/wiki/Loot-Tables) and [world generation]() relating to the Husk.
+
 
 ### Sponge
 
