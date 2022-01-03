@@ -1,8 +1,11 @@
 {
+    "type": "minecraft:simple_block",
     "config": {
-        "state": {
-            "Name": "minecraft:obsidian"
+        "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:obsidian"
+            }
         }
-    },
-    "type": "minecraft:forest_rock"
+    }
 }
