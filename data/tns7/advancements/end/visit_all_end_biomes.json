@@ -44,7 +44,23 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "location": {
-                    "biome": "tns7:end_barrens"
+                    "biome": "minecraft:end_barrens"
+                }
+            }
+        },
+        "visit_weeping_deltas": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "tns7:weeping_deltas"
+                }
+            }
+        },
+        "visit_ender_grove": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "tns7:ender_grove"
                 }
             }
         }

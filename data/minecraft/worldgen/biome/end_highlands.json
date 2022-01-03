@@ -17,18 +17,18 @@
     "features": [
         [],
         [],
+        [],
+        [],
         [
-            "tns7:obsidian_rock"
+            "minecraft:end_gateway_return"
         ],
         [],
         [],
         [],
         [],
         [
-            "tns7:patch_dead_coral"
-        ],
-        [],
-        []
+            "minecraft:chorus_plant"
+        ]
     ],
     "spawners": {
         "monster": [

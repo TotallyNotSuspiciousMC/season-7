@@ -259,8 +259,8 @@
                 "salt": 14357617
             },
             "minecraft:endcity": {
-                "spacing": 20,
-                "separation": 11,
+                "spacing": 12,
+                "separation": 6,
                 "salt": 10387313
             },
             "minecraft:shipwreck": {

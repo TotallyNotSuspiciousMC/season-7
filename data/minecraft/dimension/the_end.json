@@ -10,10 +10,10 @@
                 {
                     "biome": "tns7:enderius_fields",
                     "parameters": {
-                        "temperature": -0.2,
-                        "humidity": 0.5,
+                        "temperature": -0.197,
+                        "humidity": 0.47,
                         "continentalness": 0.2,
-                        "erosion": 0.4,
+                        "erosion": 0.377,
                         "weirdness": 0.2,
                         "depth": 0,
                         "offset": 0
@@ -35,9 +35,9 @@
                     "biome": "minecraft:end_highlands",
                     "parameters": {
                         "temperature": 0.1,
-                        "humidity": 0.3,
-                        "continentalness": -0.3,
-                        "erosion": 0.3,
+                        "humidity": 0.1,
+                        "continentalness": -0.2,
+                        "erosion": 0.2,
                         "weirdness": 0,
                         "depth": 0,
                         "offset": 0
@@ -58,10 +58,10 @@
                 {
                     "biome": "tns7:weeping_deltas",
                     "parameters": {
-                        "temperature": 0.3,
-                        "humidity": -0.1,
-                        "continentalness": 0.1,
-                        "erosion": 0.1,
+                        "temperature": -0.3,
+                        "humidity": 0.35,
+                        "continentalness": 0.2,
+                        "erosion": 0.4,
                         "weirdness": 0.2,
                         "depth": 0,
                         "offset": 0
