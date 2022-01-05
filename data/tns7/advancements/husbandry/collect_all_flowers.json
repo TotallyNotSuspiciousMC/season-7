@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rose_bush"
+        },
+        "title": "A Full Bouquet",
+        "description": "Collect every flower",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "collect_rose_bush": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:rose_bush"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_wither_rose": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wither_rose"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "collect_rose_bush"
+        ],
+        [  
+            "collect_wither_rose"
+        ]
+    ]
+}

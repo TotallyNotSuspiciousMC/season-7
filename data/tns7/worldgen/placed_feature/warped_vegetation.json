@@ -1,0 +1,12 @@
+{
+    "feature": "tns7:warped_vegetation",
+    "placement": [
+        {
+            "count": 5,
+            "type": "minecraft:count_on_every_layer"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

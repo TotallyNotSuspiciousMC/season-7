@@ -1,7 +1,7 @@
 {
     "effects": {
         "mood_sound": {
-            "sound": "minecraft:ambient.cave",
+            "sound": "minecraft:music.overworld.lush_caves",
             "tick_delay": 6000,
             "block_search_extent": 8,
             "offset": 2.0
@@ -10,7 +10,7 @@
         "fog_color": 10518688,
         "water_color": 4159204,
         "water_fog_color": 329011,
-        "grass_color": 5639864,
+        "grass_color": 10184931,
         "foliage_color": 11501045,
         "music": {
             "sound": "minecraft:music.creative",
@@ -38,9 +38,15 @@
         [],
         [],
         [
+            "minecraft:patch_grass_plain",
             "tns7:ender_tree"
         ],
-        []
+        [
+            "minecraft:warped_fungi",
+            "tns7:warped_vegetation",
+            "minecraft:nether_sprouts",
+            "minecraft:twisting_vines"
+        ]
     ],
     "spawners": {
         "monster": [

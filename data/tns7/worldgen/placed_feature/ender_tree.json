@@ -3,7 +3,7 @@
     "placement": [
         {
             "type": "minecraft:count",
-            "count": 4
+            "count": 10
         },
         {
             "type": "minecraft:in_square"
@@ -22,7 +22,7 @@
                     0
                 ],
                 "blocks": [
-                    "minecraft:end_stone"
+                    "minecraft:grass_block"
                 ]
             }
         },
