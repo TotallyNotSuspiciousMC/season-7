@@ -38,14 +38,13 @@
         [],
         [],
         [
-            "minecraft:patch_grass_plain",
-            "tns7:ender_tree"
+            "tns7:ender_bush",
+            "tns7:ender_tree",
+            "tns7:fancy_ender_tree"
         ],
         [
-            "minecraft:warped_fungi",
-            "tns7:warped_vegetation",
-            "minecraft:nether_sprouts",
-            "minecraft:twisting_vines"
+            "minecraft:patch_grass_plain",
+            "tns7:warped_vegetation"
         ]
     ],
     "spawners": {

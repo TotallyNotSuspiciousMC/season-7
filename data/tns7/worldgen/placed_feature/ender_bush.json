@@ -1,9 +1,9 @@
 {
-    "feature": "tns7:ender_tree",
+    "feature": "tns7:ender_bush",
     "placement": [
         {
             "type": "minecraft:count",
-            "count": 4
+            "count": 1
         },
         {
             "type": "minecraft:in_square"

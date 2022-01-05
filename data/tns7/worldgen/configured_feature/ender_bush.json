@@ -1,13 +1,13 @@
 {
     "type": "minecraft:tree",
     "config": {
-        "ignore_vines": true,
+        "ignore_vines": false,
         "force_dirt": false,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size",
-            "limit": 1,
+            "limit": 0,
             "lower_size": 0,
-            "upper_size": 1
+            "upper_size": 0
         },
         "dirt_provider": {
             "type": "minecraft:simple_state_provider",
@@ -28,47 +28,41 @@
             }
         },
         "foliage_provider": {
+            "type": "minecraft:weighted_state_provider",
             "entries": [
                 {
-                    "data": {
-                        "Name": "minecraft:jungle_leaves",
-                        "Properties": {
-                            "persistent": "false",
-                            "distance": "7"
-                        }
-                    },
-                    "weight": 2
-                },
-                {
+                    "weight": 7,
                     "data": {
                         "Name": "minecraft:oak_leaves",
                         "Properties": {
-                            "persistent": "false",
-                            "distance": "7"
+                            "distance": "7",
+                            "persistent": "false"
                         }
-                    },
-                    "weight": 8
+                    }
+                },
+                {
+                    "weight": 3,
+                    "data": {
+                        "Name": "minecraft:jungle_leaves",
+                        "Properties": {
+                            "distance": "7",
+                            "persistent": "false"
+                        }
+                    }
                 }
-            ],
-            "type": "minecraft:weighted_state_provider"
+            ]
         },
         "trunk_placer": {
             "type": "minecraft:straight_trunk_placer",
-            "base_height": 4,
-            "height_rand_a": 2,
+            "base_height": 1,
+            "height_rand_a": 0,
             "height_rand_b": 0
         },
         "foliage_placer": {
-            "type": "minecraft:blob_foliage_placer",
-            "radius": {
-                "type": "minecraft:uniform",
-                "value": {
-                    "min_inclusive": 2,
-                    "max_inclusive": 3
-                }
-            },
-            "offset": 0,
-            "height": 3
+            "type": "minecraft:bush_foliage_placer",
+            "radius": 2,
+            "offset": 1,
+            "height": 2
         },
         "decorators": []
     }

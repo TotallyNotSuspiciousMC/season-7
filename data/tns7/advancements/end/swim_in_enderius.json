@@ -8,29 +8,30 @@
             "text": "Sculking in the Pool"
         },
         "description": {
-            "text": "Go for a swim in a pool of Enderius"
+            "text": "Collect a Sculk Sensor from a pool of Enderius"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "swim_in_enderius": {
-            "trigger": "minecraft:location",
+        "collect_sculk_sensor": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "location": {
-                    "biome": "tns7:enderius_fields",
-                    "fluid": {
-                        "fluid": "minecraft:water"
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:sculk_sensor"
+                        ]
                     }
-                }
+                ]
             }
         }
     },
     "requirements": [
         [
-            "swim_in_enderius"
+            "collect_sculk_sensor"
         ]
     ]
 }
