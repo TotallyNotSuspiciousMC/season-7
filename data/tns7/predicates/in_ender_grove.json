@@ -1,0 +1,31 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "biome": "tns7:ender_grove"
+        }
+    },
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "player": {
+                        "gamemode": "survival"
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "player": {
+                        "gamemode": "adventure"
+                    }
+                }
+            }
+        ]
+    }
+]
