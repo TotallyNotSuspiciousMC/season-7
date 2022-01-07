@@ -55,28 +55,3 @@ _Shaped recipe:_
 ![To craft 2 wet sponge, place four wool in each corner, 1 pufferfish in the centre, and 2 nautilus shells to left and right of the pufferfish](https://i.gyazo.com/9bb42e1728f4bcd04246f8476430d412.png)
 
 **Note:** The yellow wool may be replaced with wool of any colour.
-
-## Vanilla Tweaks Recipes
-
-We are also using the following recipes from vanilla tweaks.
-
-### Quality of Life
-* Back to Blocks
-* Double Slabs
-* Rotten Flesh to Leather
-* Universal Dyeing
-* Straight to Shapeless
-
-### More Blocks
-* More Trapdoors
-* More Bark
-* More Stairs
-* More Bricks
-
-### Craftables
-* Craftable Coral Blocks 2x2
-
-### Unpackables
-* Unpackable Wool
-* Unpackable Ice
-* Unpackable Nether Wart

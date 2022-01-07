@@ -16,6 +16,14 @@
         "hidden": false
     },
     "criteria": {
+        "visit_the_end": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:the_end"
+                }
+            }
+        },
         "visit_highlands": {
             "trigger": "minecraft:location",
             "conditions": {
@@ -83,6 +91,9 @@
         ],
         [
             "visit_ender_grove"
+        ],
+        [
+            "visit_the_end"
         ]
     ]
 }
