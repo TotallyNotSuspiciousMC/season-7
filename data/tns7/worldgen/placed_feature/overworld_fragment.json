@@ -1,0 +1,15 @@
+{
+    "feature": "tns7:overworld_fragment",
+    "placement": [
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "heightmap": "MOTION_BLOCKING",
+            "type": "minecraft:heightmap"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

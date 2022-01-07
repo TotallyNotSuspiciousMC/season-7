@@ -1,12 +1,27 @@
 [
     {
-        "condition": "minecraft:location_check",
-        "predicate": {
-            "biome": "tns7:enderius_fields",
-            "fluid": {
-                "fluid": "minecraft:water"
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                    "biome": "tns7:enderius_fields",
+                    "fluid": {
+                        "fluid": "minecraft:water"
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "biome": "tns7:enderius_fields",
+                    "fluid": {
+                        "fluid": "minecraft:water"
+                    }
+                }
             }
-        }
+        ]
     },
     {
         "condition": "minecraft:alternative",

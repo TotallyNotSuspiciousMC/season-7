@@ -2,7 +2,7 @@
     "type": "minecraft:the_end",
     "generator": {
         "type": "minecraft:noise",
-        "seed": 2080908873,
+        "seed": 8624896,
         "settings": "minecraft:end",
         "biome_source": {
             "type": "minecraft:multi_noise",
