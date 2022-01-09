@@ -1,18 +1,20 @@
 {
     "feature": "tns7:crying_obsidian_column",
     "placement": [
+        
         {
             "count": 50,
             "type": "minecraft:count"
         },
         {
-            "count": 30,
-            "type": "minecraft:count"
-        },
-        {
-            "chance": 2,
+            "chance": 10,
             "type": "minecraft:rarity_filter"
         },
+        {
+            "count": 70,
+            "type": "minecraft:count"
+        },
+        
         {
             "type": "minecraft:in_square"
         },
@@ -23,7 +25,7 @@
         {
             "type": "minecraft:environment_scan",
             "direction_of_search": "up",
-            "max_steps": 12,
+            "max_steps": 25,
             "target_condition": {
                 "type": "minecraft:all_of",
                 "predicates": [

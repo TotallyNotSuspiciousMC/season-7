@@ -9,10 +9,3 @@ These loot tables have been modified from their vanilla versions for Season 7 of
 * The Husk now has a 20% chance (increases with looting) to drop 1 sand (also increases with looting). If the Husk is killed in a Badlands, Eroded Badlands, or Wooded Badlands biome, then it will drop red sand instead.
 
 * Iron Golems will only drop iron if they are built by a player.
-
-# Vanilla Tweaks
-
-The following loot table datapacks have been added from Vanilla Tweaks:
-
-* More Mob Heads
-* Player Head Drops

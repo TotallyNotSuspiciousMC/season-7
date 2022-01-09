@@ -4,6 +4,7 @@ We have the following data packs from Vanilla Tweaks:
 
 * Anti Enderman Grief
 * Armor Statues
+* More Mob Heads
 * Player Head Drops
 * Silence Mobs
 * Wandering Trades (mini blocks in the Wandering Trader)

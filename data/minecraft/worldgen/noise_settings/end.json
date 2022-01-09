@@ -197,7 +197,7 @@
                                 "result_state": {
                                     "Name": "minecraft:grass_block",
                                     "Properties": {
-                                        "snowy": false
+                                        "snowy": "false"
                                     }
                                 },
                                 "type": "minecraft:block"
@@ -324,8 +324,8 @@
                 "salt": 14357617
             },
             "minecraft:endcity": {
-                "spacing": 17,
-                "separation": 9,
+                "spacing": 20,
+                "separation": 11,
                 "salt": 10387313
             },
             "minecraft:shipwreck": {
