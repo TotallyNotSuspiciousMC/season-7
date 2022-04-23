@@ -47,7 +47,8 @@
             "tns7:ore_raw_iron"
         ],
         [
-            "tns7:small_petrified_tree",
+            "tns7:small_petrified_tree_soul_soil",
+            "tns7:small_petrified_tree_soul_sand",
             "tns7:petrified_tree"
         ],
         []

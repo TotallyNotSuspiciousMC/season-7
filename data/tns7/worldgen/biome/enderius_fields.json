@@ -7,7 +7,7 @@
             "offset": 2.0
         },
         "additions_sound": {
-            "sound": "minecraft:ambient.underwater.loop.additions",
+            "sound": "minecraft:block.sculk_sensor.clicking_stop",
             "tick_chance": 0.0111
         },
         "music": {

@@ -1,0 +1,30 @@
+{
+    "feature": "tns7:small_petrified_tree_soul_soil",
+    "placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 7
+		},
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                    0,
+                    -1,
+                    0
+                ],
+                "blocks": [
+                    "minecraft:soul_soil",
+                    "minecraft:soul_sand"
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

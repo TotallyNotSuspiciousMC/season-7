@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:huge_fungus",
+    "config": {
+        "hat_state": {
+            "Name": "minecraft:cobbled_deepslate"
+        },
+        "decor_state": {
+            "Name": "minecraft:air"
+        },
+        "stem_state": {
+            "Name": "minecraft:basalt",
+            "Properties": {
+                "axis": "y"
+            }
+        },
+        "valid_base_block": {
+            "Name": "minecraft:soul_soil"
+        },
+        "planted": false
+    }
+}

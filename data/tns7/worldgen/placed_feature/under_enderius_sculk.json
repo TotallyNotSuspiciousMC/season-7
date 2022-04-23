@@ -3,7 +3,13 @@
     "placement": [
 		{
 			"type": "minecraft:count_on_every_layer",
-			"count": 6
+			"count": {
+                "type": "minecraft:uniform",
+                "value": {
+                    "min_inclusive": 6,
+                    "max_inclusive": 9
+                }
+            }
 		},
         {
             "type": "minecraft:in_square"
@@ -19,17 +25,6 @@
                         "type": "minecraft:matching_fluids",
                         "offset": [
                             0,
-                            0,
-                            0
-                        ],
-                        "fluids": [
-                            "minecraft:water"
-                        ]
-                    },
-                    {
-                        "type": "minecraft:matching_fluids",
-                        "offset": [
-                            0,
                             1,
                             0
                         ],
@@ -38,23 +33,13 @@
                         ]
                     },
                     {
-                        "type": "minecraft:not",
+                        "type": "minecraft:matching_block_tag",
                         "offset": [
                             0,
-                            0,
+                            -1,
                             0
                         ],
-                        "predicate": {
-                            "type": "minecraft:matching_fluids",
-                            "offset": [
-                                0,
-                                -1,
-                                0
-                            ],
-                            "fluids": [
-                                "minecraft:water"
-                            ]
-                        }
+                        "tag": "tns7:enderius_lake_replaceable"
                     }
                 ]
             }
