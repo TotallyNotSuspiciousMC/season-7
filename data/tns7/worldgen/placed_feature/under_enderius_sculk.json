@@ -1,16 +1,12 @@
 {
     "feature": "tns7:under_enderius_sculk",
     "placement": [
-        {
-            "type": "minecraft:count",
-            "count": 4
-        },
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 6
+		},
         {
             "type": "minecraft:in_square"
-        },
-        {
-            "type": "minecraft:heightmap",
-            "heightmap": "WORLD_SURFACE_WG"
         },
         {
             "type": "environment_scan",

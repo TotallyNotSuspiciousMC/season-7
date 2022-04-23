@@ -1,10 +1,26 @@
 {
     "effects": {
         "mood_sound": {
-            "sound": "minecraft:ambient.cave",
+            "sound": "minecraft:ambient.underwater.loop",
             "tick_delay": 6000,
             "block_search_extent": 8,
             "offset": 2.0
+        },
+        "additions_sound": {
+            "sound": "minecraft:ambient.underwater.loop.additions",
+            "tick_chance": 0.0111
+        },
+        "music": {
+            "sound": "minecraft:music.under_water",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        },
+        "particle": {
+            "options": {
+                "type": "minecraft:glow"
+            },
+            "probability": 0.02
         },
         "sky_color": 0,
         "fog_color": 10518688,

@@ -1,9 +1,9 @@
 {
-    "feature": "tns7:petrified_tree",
+    "feature": "tns7:small_petrified_tree",
     "placement": [
 		{
 			"type": "minecraft:count_on_every_layer",
-			"count": 12
+			"count": 5
 		},
         {
             "type": "minecraft:in_square"

@@ -2,7 +2,7 @@
     "feature": "tns7:ore_raw_iron",
     "placement": [
         {
-            "count": 4,
+            "count": 8,
             "type": "minecraft:count"
         },
         {
