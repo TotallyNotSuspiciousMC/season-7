@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:crying_obsidian"
+        },
+        {
+            "tag": "minecraft:flowers"
+        }
+
+    ],
+    "result": {
+        "item": "minecraft:obsidian",
+        "count": 1
+    }
+}
