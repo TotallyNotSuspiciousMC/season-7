@@ -4,7 +4,7 @@
         
         {
             "count": 50,
-            "type": "minecraft:count"
+            "type": "minecraft:count_on_every_layer"
         },
         {
             "chance": 10,
@@ -12,16 +12,12 @@
         },
         {
             "count": 70,
-            "type": "minecraft:count"
+            "type": "minecraft:count_on_every_layer"
         },
         
         {
             "type": "minecraft:in_square"
         },
-        {
-			"type": "heightmap",
-			"heightmap": "WORLD_SURFACE_WG"
-		},
         {
             "type": "minecraft:environment_scan",
             "direction_of_search": "up",

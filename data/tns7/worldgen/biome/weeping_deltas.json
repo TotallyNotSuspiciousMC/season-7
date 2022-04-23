@@ -1,24 +1,24 @@
 {
     "effects": {
         "mood_sound": {
-            "sound": "minecraft:ambient.underwater.loop",
+            "sound": "minecraft:ambient.soul_sand_valley.loop",
             "tick_delay": 6000,
             "block_search_extent": 8,
             "offset": 2.0
         },
         "additions_sound": {
-            "sound": "minecraft:ambient.underwater.loop.additions",
-            "tick_chance": 0.0111
+            "sound": "minecraft:ambient.soul_sand_valley.additions",
+            "tick_chance": 0.01
         },
         "music": {
-            "sound": "minecraft:music.under_water",
+            "sound": "minecraft:music_disc.13",
             "min_delay": 12000,
             "max_delay": 24000,
             "replace_current_music": false
         },
         "particle": {
             "options": {
-                "type": "minecraft:glow"
+                "type": "minecraft:landing_obsidian_tear"
             },
             "probability": 0.02
         },
@@ -43,7 +43,6 @@
         [],
         [],
         [
-            "tns7:patch_dead_coral"
         ],
         [],
         []
