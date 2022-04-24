@@ -37,14 +37,15 @@
         [],
         [
             "tns7:obsidian_delta",
-            "tns7:crying_obsidian_column",
             "minecraft:end_gateway_return"
         ],
         [],
         [],
         [
         ],
-        [],
+        [
+            "tns7:crying_obsidian_column"
+        ],
         []
     ],
     "spawners": {

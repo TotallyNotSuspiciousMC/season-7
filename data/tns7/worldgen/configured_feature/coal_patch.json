@@ -1,0 +1,88 @@
+{
+    "type": "minecraft:vegetation_patch",
+    "config": {
+        "surface": "floor",
+        "depth": {
+            "type": "minecraft:uniform",
+            "value": {
+                "min_inclusive": 1,
+                "max_inclusive": 4
+            }
+        },
+        "vertical_range": 128,
+        "extra_bottom_block_chance": 0,
+        "extra_edge_column_chance": 0.9,
+        "vegetation_chance": 0.3,
+        "xz_radius": 12,
+        "replaceable": "#tns7:soul_ground",
+        "ground_state": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+                {
+                    "weight": 1,
+                    "data": {
+                        "Name": "minecraft:deepslate",
+                        "Properties": {
+                            "axis": "y"
+                        }
+                    }
+                }
+            ]
+        },
+        "vegetation_feature": {
+            "feature": {
+                "type": "minecraft:random_selector",
+                "config": {
+                    "features": [
+                        {
+                            "chance": 0.1,
+                            "feature": {
+                                "feature": {
+                                    "type": "minecraft:netherrack_replace_blobs",
+                                    "config": {
+                                        "state": {
+                                            "Name": "minecraft:iron_ore"
+                                        },
+                                        "target": {
+                                            "Name": "minecraft:air"
+                                        },
+                                        "radius": {
+                                            "type": "minecraft:uniform",
+                                            "value": {
+                                                "min_inclusive": 1,
+                                                "max_inclusive": 3
+                                            }
+                                        }
+                                    }
+                                },
+                                "placement": []
+                            }
+                        }
+                    ],
+                    "default": {
+                        "feature": {
+                            "type": "minecraft:netherrack_replace_blobs",
+                            "config": {
+                                "state": {
+                                    "Name": "minecraft:tuff"
+                                },
+                                "target": {
+                                    "Name": "minecraft:air"
+                                },
+                                "radius": {
+                                    "type": "minecraft:uniform",
+                                    "value": {
+                                        "min_inclusive": 3,
+                                        "max_inclusive": 7
+                                    }
+                                }
+                            }
+                        },
+                        "placement": []
+                    }
+                }
+            },
+            "placement": []
+        }
+    }
+}

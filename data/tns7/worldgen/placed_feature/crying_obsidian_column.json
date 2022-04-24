@@ -11,12 +11,8 @@
             "type": "minecraft:rarity_filter"
         },
         {
-            "count": 70,
+            "count": 100,
             "type": "minecraft:count_on_every_layer"
-        },
-        
-        {
-            "type": "minecraft:in_square"
         },
         {
             "type": "minecraft:environment_scan",

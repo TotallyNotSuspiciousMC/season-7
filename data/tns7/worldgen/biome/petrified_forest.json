@@ -40,7 +40,9 @@
             "minecraft:end_gateway_return"
         ],
         [],
-        [],
+        [
+            "tns7:coal_patch"
+        ],
         [
             "minecraft:patch_soul_fire",
             "tns7:patch_dead_coral",
@@ -60,6 +62,12 @@
                 "weight": 10,
                 "minCount": 4,
                 "maxCount": 4
+            },
+            {
+                "type": "minecraft:wither_skeleton",
+                "weight": 3,
+                "minCount": 1,
+                "maxCount": 3
             }
         ],
         "creature": [],
