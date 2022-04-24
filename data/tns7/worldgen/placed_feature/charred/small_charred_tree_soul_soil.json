@@ -1,5 +1,5 @@
 {
-    "feature": "tns7:small_petrified_tree_soul_soil",
+    "feature": "tns7:charred/small_charred_tree_soul_soil",
     "placement": [
 		{
 			"type": "minecraft:count_on_every_layer",
