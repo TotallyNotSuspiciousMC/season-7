@@ -1,0 +1,12 @@
+{
+    "feature": "tns7:charred/big_charred_tree",
+    "placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 12
+		},
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

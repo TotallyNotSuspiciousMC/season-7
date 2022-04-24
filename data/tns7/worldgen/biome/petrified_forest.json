@@ -41,17 +41,16 @@
         ],
         [],
         [
-            "tns7:forest/magma_pocket",
-            "tns7:forest/resource_core_diamond"
+            "tns7:charred/magma_pocket"
         ],
         [
             "minecraft:patch_soul_fire",
             "tns7:patch_dead_coral"
         ],
         [
-            "tns7:small_petrified_tree_soul_soil",
-            "tns7:small_petrified_tree_soul_sand",
-            "tns7:petrified_tree"
+            "tns7:charred/small_charred_tree_soul_soil",
+            "tns7:charred/small_charred_tree_soul_sand",
+            "tns7:charred/big_charred_tree"
         ],
         []
     ],
