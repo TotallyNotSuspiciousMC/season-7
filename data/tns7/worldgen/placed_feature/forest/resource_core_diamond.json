@@ -1,0 +1,18 @@
+{
+    "feature": "tns7:forest/resource_core_diamond",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 1
+        },
+        {
+            "type": "minecraft:noise_threshold_count",
+            "noise_level": -0.5,
+            "above_noise": 0,
+            "below_noise": 1
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

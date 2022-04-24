@@ -187,7 +187,7 @@
             {
                 "if_true": {
                     "biome_is": [
-                        "tns7:petrified_forest"
+                        "tns7:charred_forest"
                     ],
                     "type": "minecraft:biome"
                 },

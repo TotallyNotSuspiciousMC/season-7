@@ -1,0 +1,17 @@
+{
+    "feature": "tns7:forest/magma_pocket",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 1
+        },
+        {
+            "type": "minecraft:noise_based_count",
+            "noise_factor": 100,
+            "noise_to_count_ratio": 1
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

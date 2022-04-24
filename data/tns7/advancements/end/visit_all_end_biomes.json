@@ -44,7 +44,7 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "location": {
-                    "biome": "tns7:petrified_forest"
+                    "biome": "tns7:charred_forest"
                 }
             }
         },

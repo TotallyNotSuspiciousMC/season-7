@@ -40,9 +40,9 @@
             "minecraft:end_gateway_return"
         ],
         [],
-        [
-            "tns7:forest/magma_pocket",
-            "tns7:forest/resource_core_diamond"
+        [   
+            "tns7:forest/basalt_casing",
+            "tns7:forest/magma_pocket"
         ],
         [
             "minecraft:patch_soul_fire",

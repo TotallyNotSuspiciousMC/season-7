@@ -20,7 +20,7 @@
                     }
                 },
                 {
-                    "biome": "tns7:petrified_forest",
+                    "biome": "tns7:charred_forest",
                     "parameters": {
                         "temperature": 0.3,
                         "humidity": -0.4,
