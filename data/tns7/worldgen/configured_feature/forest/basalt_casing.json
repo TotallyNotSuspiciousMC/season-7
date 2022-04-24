@@ -16,8 +16,8 @@
         "xz_radius": {
             "type": "minecraft:uniform",
             "value": {
-                "min_inclusive": 1,
-                "max_inclusive": 7
+                "min_inclusive": 2,
+                "max_inclusive": 6
             }
         },
         "replaceable": "#tns7:forest_ground",
@@ -27,7 +27,7 @@
                 {
                     "weight": 1,
                     "data": {
-                        "Name": "minecraft:basalt"
+                        "Name": "minecraft:smooth_basalt"
                     }
                 }
             ]
@@ -60,7 +60,7 @@
                                                         {
                                                             "weight": 1,
                                                             "data": {
-                                                                "Name": "minecraft:basalt"
+                                                                "Name": "minecraft:smooth_basalt"
                                                             }
                                                         }
                                                     ]
@@ -95,7 +95,7 @@
                                                         {
                                                             "weight": 1,
                                                             "data": {
-                                                                "Name": "minecraft:basalt"
+                                                                "Name": "minecraft:smooth_basalt"
                                                             }
                                                         }
                                                     ]
@@ -109,7 +109,7 @@
                                                         {
                                                             "weight": 1,
                                                             "data": {
-                                                                "Name": "minecraft:basalt"
+                                                                "Name": "minecraft:smooth_basalt"
                                                             }
                                                         }
                                                     ]
@@ -143,7 +143,7 @@
                                                 {
                                                     "weight": 1,
                                                     "data": {
-                                                        "Name": "minecraft:basalt"
+                                                        "Name": "minecraft:smooth_basalt"
                                                     }
                                                 }
                                             ]
@@ -157,7 +157,7 @@
                                                 {
                                                     "weight": 1,
                                                     "data": {
-                                                        "Name": "minecraft:basalt"
+                                                        "Name": "minecraft:smooth_basalt"
                                                     }
                                                 }
                                             ]
@@ -171,7 +171,7 @@
                                                 {
                                                     "weight": 1,
                                                     "data": {
-                                                        "Name": "minecraft:basalt"
+                                                        "Name": "minecraft:smooth_basalt"
                                                     }
                                                 }
                                             ]

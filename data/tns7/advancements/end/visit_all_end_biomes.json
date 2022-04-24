@@ -40,11 +40,19 @@
                 }
             }
         },
-        "visit_petrified_forest": {
+        "visit_charred_forest": {
             "trigger": "minecraft:location",
             "conditions": {
                 "location": {
                     "biome": "tns7:charred_forest"
+                }
+            }
+        },
+        "visit_petrified_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "tns7:petrified_forest"
                 }
             }
         },
@@ -79,6 +87,9 @@
         ],
         [
             "visit_enderius_fields"
+        ],
+        [
+            "visit_charred_forest"
         ],
         [
             "visit_petrified_forest"

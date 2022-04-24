@@ -11,6 +11,12 @@
             "noise_to_count_ratio": 1
         },
         {
+            "type": "minecraft:noise_threshold_count",
+            "noise_level": 0.99,
+            "above_noise": 0,
+            "below_noise": 1
+        },
+        {
             "type": "minecraft:biome"
         }
     ]
