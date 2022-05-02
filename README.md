@@ -12,3 +12,5 @@ See the [wiki](https://github.com/TotallyNotSuspiciousMC/season-7/wiki) for docu
 Vanilla tweaks for a number of crafting recipes. 
 
 Mikael "Slicedlime" Hedberg for his [vanilla worldgen reference datapack](https://github.com/slicedlime/examples).
+
+Stardust Labs for Nullscape to support custom End generation. https://www.planetminecraft.com/data-pack/nullscape/
