@@ -5,7 +5,7 @@ This repository contains a number of changes to recipes, loot tables, world gene
 
 # Documentation
 
-See the [wiki](https://github.com/TheDeathlyCow/tns7/wiki) for documentation. A copy of the wiki is kept in the `wiki/` directory in this repo.
+See the [wiki](https://github.com/TotallyNotSuspiciousMC/season-7/wiki) for documentation. A copy of the wiki is kept in the `wiki/` directory in this repo.
 
 # Credits
 
