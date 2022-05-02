@@ -32,6 +32,14 @@
                 }
             }
         },
+        "visit_midlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:end_midlands"
+                }
+            }
+        },
         "visit_enderius_fields": {
             "trigger": "minecraft:location",
             "conditions": {
@@ -40,27 +48,11 @@
                 }
             }
         },
-        "visit_charred_forest": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "location": {
-                    "biome": "tns7:charred_forest"
-                }
-            }
-        },
         "visit_petrified_forest": {
             "trigger": "minecraft:location",
             "conditions": {
                 "location": {
                     "biome": "tns7:petrified_forest"
-                }
-            }
-        },
-        "visit_barrens": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "location": {
-                    "biome": "minecraft:end_barrens"
                 }
             }
         },
@@ -79,6 +71,22 @@
                     "biome": "tns7:ender_grove"
                 }
             }
+        },
+        "visit_shadowlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "nullscape:shadowlands"
+                }
+            }
+        },
+        "visit_crystal_peaks": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "nullscape:crystal_peaks"
+                }
+            }
         }
     },
     "requirements": [
@@ -89,13 +97,7 @@
             "visit_enderius_fields"
         ],
         [
-            "visit_charred_forest"
-        ],
-        [
             "visit_petrified_forest"
-        ],
-        [
-            "visit_barrens"
         ],
         [
             "visit_weeping_deltas"
@@ -105,6 +107,15 @@
         ],
         [
             "visit_the_end"
+        ],
+        [
+            "visit_shadowlands"
+        ],
+        [
+            "visit_crystal_peaks"
+        ],
+        [
+            "visit_midlands"
         ]
     ]
 }

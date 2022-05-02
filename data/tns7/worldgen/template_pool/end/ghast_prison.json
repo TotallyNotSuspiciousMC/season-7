@@ -1,0 +1,15 @@
+{
+    "name": "tns7:end/ghast_prison",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "tns7:end/ghast_prison",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

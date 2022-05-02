@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "tns7:end/ghast_prison",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "salt": 42069,
+        "spacing": 20,
+        "separation": 11,
+        "type": "minecraft:random_spread"
+    }
+}

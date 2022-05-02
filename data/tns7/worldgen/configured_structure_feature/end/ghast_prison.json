@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "biomes": "#tns7:has_structure/ghast_prison",
+    "adapt_noise": true,
+    "spawn_overrides": {},
+    "config": {
+        "start_pool": "tns7:end/ghast_prison",
+        "size": 1
+    }
+}

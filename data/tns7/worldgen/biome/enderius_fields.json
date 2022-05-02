@@ -31,7 +31,9 @@
     },
     "carvers": {},
     "features": [
-        [],
+        [
+            "minecraft:end_island_decorated"
+        ],
         [
             "tns7:enderius_lake"
         ],

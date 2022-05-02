@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:end/enter_end_gateway",
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_bars"
+        },
+        "title": {
+            "text": "Judge, Jury, and Executioner"
+        },
+        "description": {
+            "text": "Kill an imprisoned ghast"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kill_imprisoned_ghast": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast",
+                    "nbt": "{Tags:[\"imprisoned_ghast\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kill_imprisoned_ghast"
+        ]
+    ]
+}
