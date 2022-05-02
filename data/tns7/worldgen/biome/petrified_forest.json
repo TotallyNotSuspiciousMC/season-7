@@ -40,7 +40,8 @@
             "minecraft:end_gateway_return"
         ],
         [],
-        [
+        [   
+            "tns7:charred/basalt_casing",
             "tns7:charred/magma_pocket"
         ],
         [
@@ -63,7 +64,7 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:wither_skeleton",
+                "type": "minecraft:magma_cube",
                 "weight": 3,
                 "minCount": 1,
                 "maxCount": 3
