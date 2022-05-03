@@ -16,7 +16,8 @@
                         "type": "minecraft:matching_blocks",
                         "blocks": [
                             "minecraft:blackstone",
-                            "minecraft:smooth_basalt"
+                            "minecraft:smooth_basalt",
+                            "minecraft:basalt"
                         ]
                     },
                     {
