@@ -25,6 +25,14 @@ _Shapeless recipe:_
 
 **Note:** Cobblestone may also be replaced with any of: stone, granite, andesite, diorite, cobbled deepslate, tuff, or blackstone.
 
+### Obsidian
+
+_Shapeless recipe:_
+
+![To craft 1 obsidian, combine 1 crying obsidian with 1 flower shapelessly](https://i.gyazo.com/5e364c747b856b3d8a43721f351ea467.png)
+
+**Note:** The Sunflower can be replaced with any flower.
+
 ### Quartz
 
 _Shapeless recipe:_
